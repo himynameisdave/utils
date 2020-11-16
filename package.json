@@ -1,0 +1,8 @@
+{
+  "name": "@himynameisdave/utils",
+  "description": "🛠 A collection of small utilities and helper functions often reuse across projects.",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

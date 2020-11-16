@@ -1,0 +1,10 @@
+# Packages
+*node_modules/
+
+# Logs
+npm-debug.log
+lerna-debug.log
+yarn-error.log
+
+# macOS crap
+*.DS_Store
