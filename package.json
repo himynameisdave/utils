@@ -3,10 +3,14 @@
   "description": "🛠 A collection of small utilities and helper functions, written in TypeScript",
   "scripts": {
     "test:unit": "jest",
-    "test:unit:watch": "jest --watch"
+    "test:unit:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:coverage:report": "npm run test:coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test:coverage:view": "npm run test:coverage && open ./coverage/lcov-report/index.html -a Google\\ Chrome"
   },
   "devDependencies": {
     "@types/jest": "^26.0.15",
+    "coveralls": "^3.1.0",
     "jest": "^26.6.3",
     "lerna": "^3.22.1",
     "ts-jest": "^26.4.4",
