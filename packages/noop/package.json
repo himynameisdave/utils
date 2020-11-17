@@ -1,0 +1,19 @@
+{
+  "name": "@himynameisdave/utils/noop",
+  "description": "",
+  "version": "1.0.0",
+  "dependencies": {},
+  "author": {
+    "name": "Dave Lunny",
+    "email": "d@velunny.com",
+    "url": "https://himynameisdave.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himynameisdave/utils.git"
+  },
+  "homepage": "https://github.com/himynameisdave/utils",
+  "license": "MIT",
+  "sideEffects": false,
+  "private": false
+}
