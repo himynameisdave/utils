@@ -1,7 +1,7 @@
 <div align="center" margin="0 auto 20px">
   <h1>@himynameisdave/utils</h1>
   <p style="font-style: italic;">
-    🛠 A collection of small utilities and helper functions often reuse across projects.
+    🛠 A collection of small utilities and helper functions, written in TypeScript.
   </p>
   <div>
     <a href="https://lerna.js.org/">
@@ -21,7 +21,7 @@
 
 ---
 
-A collection of small utilities and helper functions often reuse across projects.
+A collection of small utilities and helper functions, written in TypeScript.
 
 ## Install
 
