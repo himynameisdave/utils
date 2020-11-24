@@ -1,7 +1,7 @@
 {
   "name": "@himynameisdave/utils.isTruthy",
   "description": "Test if a given element is truthy",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "./index.js",
   "types": "./index.d.ts",
   "files": [
@@ -13,7 +13,6 @@
     "clean": "del index.js index.d.ts",
     "compile": "tsc index.ts --declaration"
   },
-  "dependencies": {},
   "devDependencies": {
     "del-cli": "3.0.1"
   },
