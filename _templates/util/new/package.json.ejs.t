@@ -5,8 +5,8 @@ to: packages/<%= name %>/package.json
   "name": "@himynameisdave/utils.<%= name %>",
   "description": "<%= description %>",
   "version": "0.1.0",
-  "main": "./index.js",
-  "types": "./index.d.ts",
+  "main": "./index",
+  "types": "./index",
   "files": [
     "index.js",
     "index.d.ts"
@@ -18,7 +18,8 @@ to: packages/<%= name %>/package.json
   },
   "dependencies": {},
   "devDependencies": {
-    "del-cli": "3.0.1"
+    "del-cli": "3.0.1",
+    "typescript": "^4.1.2"
   },
   "publishConfig": {
     "access": "public"
