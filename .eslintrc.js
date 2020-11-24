@@ -1,6 +1,7 @@
 module.exports = {
   'extends': [
     'himynameisdave/configurations/core',
+    'himynameisdave/configurations/jest',
     'himynameisdave/configurations/typescript'
   ],
   parserOptions: {
@@ -12,12 +13,10 @@ module.exports = {
     'import/parsers': {
       '@typescript-eslint/parser': [
         '.ts',
-        '.tsx', // Only needed if using React
       ]
     },
     'import/extensions': [
       '.ts',
-      '.tsx', // Only needed if using React
     ],
     'import/resolver': {
       typescript: {

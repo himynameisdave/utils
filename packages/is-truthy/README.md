@@ -1,5 +1,5 @@
 <div align="center" margin="0 auto 20px">
-  <h1>@himynameisdave/utils.isTruthy</h1>
+  <h1>@himynameisdave/utils.is-truthy</h1>
   <p style="font-style: italic;">
     Test if a given element is truthy.
   </p>
@@ -17,7 +17,7 @@ Test if a given element is [truthy](https://gomakethings.com/truthiness-in-javas
 ### Examples
 
 ```typescript
-import isTruthy from '@himynameisdave/utils.isTruthy';
+import isTruthy from '@himynameisdave/utils.is-truthy';
 
 isTruthy(true); // true
 isTruthy(false); // false

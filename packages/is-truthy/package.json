@@ -1,5 +1,5 @@
 {
-  "name": "@himynameisdave/utils.isTruthy",
+  "name": "@himynameisdave/utils.is-truthy",
   "description": "Test if a given element is truthy",
   "version": "0.3.0",
   "main": "./index.js",
