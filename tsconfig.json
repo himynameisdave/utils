@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "outDir": "bin",
     "rootDir": "packages",
     "lib": [
       "dom",

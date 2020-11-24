@@ -1,7 +1,11 @@
 {
   "name": "@himynameisdave/utils",
   "description": "🛠 A collection of small utilities and helper functions, written in TypeScript",
+  "version": "0.1.0",
+  "main": "./index.js",
   "scripts": {
+    "build": "npm run clean && tsc index.ts",
+    "clean": "del index.js",
     "lint": "eslint packages/**/*.ts --report-unused-disable-directives",
     "lint:fix": "eslint packages/**/*.ts --fix --report-unused-disable-directives",
     "lint:pre-commit": "eslint --fix --report-unused-disable-directives",
@@ -17,6 +21,7 @@
     "@typescript-eslint/eslint-plugin": "^4.8.0",
     "@typescript-eslint/parser": "^4.8.0",
     "coveralls": "^3.1.0",
+    "del-cli": "^3.0.1",
     "eslint": "^7.13.0",
     "eslint-config-himynameisdave": "^3.0.0",
     "eslint-import-resolver-typescript": "^2.3.0",
