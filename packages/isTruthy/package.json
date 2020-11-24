@@ -1,8 +1,22 @@
 {
-  "name": "@himynameisdave/utils/isTruthy",
-  "description": "",
-  "version": "1.0.0",
+  "name": "@himynameisdave/utils.isTruthy",
+  "description": "Test if a given element is truthy",
+  "version": "0.1.0",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "del index.js index.d.ts",
+    "compile": "tsc index.ts --declaration"
+  },
   "dependencies": {},
+  "devDependencies": {
+    "del-cli": "3.0.1"
+  },
   "author": {
     "name": "Dave Lunny",
     "email": "d@velunny.com",

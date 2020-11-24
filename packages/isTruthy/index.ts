@@ -1,5 +1,5 @@
 /**
- * Test if a given element (usually in an array) is truthy.
+ * Test if a given element is truthy.
  *
  * @param {unknown} element - A given element.
  */
