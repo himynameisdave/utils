@@ -26,7 +26,7 @@
     "type": "git",
     "url": "git+https://github.com/himynameisdave/utils.git"
   },
-  "homepage": "https://github.com/himynameisdave/utils",
+  "homepage": "https://github.com/himynameisdave/utils/tree/master/packages/noop",
   "license": "MIT",
   "sideEffects": false,
   "private": false
