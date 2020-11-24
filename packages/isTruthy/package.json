@@ -1,7 +1,7 @@
 {
   "name": "@himynameisdave/utils.isTruthy",
   "description": "Test if a given element is truthy",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "main": "./index.js",
   "types": "./index.d.ts",
   "files": [
