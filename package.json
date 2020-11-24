@@ -47,6 +47,9 @@
   "lint-staged": {
     "*.ts": "npm run lint:pre-commit"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "utils",
     "utilities",

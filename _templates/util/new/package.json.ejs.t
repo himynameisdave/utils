@@ -20,6 +20,9 @@ to: packages/<%= name %>/package.json
   "devDependencies": {
     "del-cli": "3.0.1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": {
     "name": "Dave Lunny",
     "email": "d@velunny.com",
